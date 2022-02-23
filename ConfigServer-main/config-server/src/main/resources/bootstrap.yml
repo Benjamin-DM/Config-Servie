@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  security:
+    user:
+      name: bdiazmed
+      password: bdiazmed2000
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Benjamin-DM/repository_yml-s.git
+          search-paths: /
+          default-label: "dev"
+
